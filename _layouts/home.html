@@ -2,16 +2,23 @@
 layout: default
 ---
 
+<script>
+function toggleCategory(categoryId) {
+  var categoryList = document.getElementById(categoryId + '-list');
+  categoryList.style.display = (categoryList.style.display === 'none' || categoryList.style.display === '') ? 'block' : 'none';
+}
+</script>
+
 <h2>Categories</h2>
 <ul>
   {% for category in site.categories %}
-    <li><a href="#{{ category | first }}">{{ category | first }}</a></li>
+    <li><a href="javascript:void(0);" onclick="toggleCategory('{{ category | first }}')">{{ category | first }}</a></li>
   {% endfor %}
 </ul>
 
 {% for category in site.categories %}
-  <h3 id="{{ category | first }}">{{ category | first }}</h3>
-  <ul>
+  <h3>{{ category | first }}</h3>
+  <ul id="{{ category | first }}-list" style="display: none;">
     {% for post in category.last %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
