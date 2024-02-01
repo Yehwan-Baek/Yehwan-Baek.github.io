@@ -34,8 +34,9 @@ plugins:
 
 header_pages:
   - home: /
-  - category1: /Projects in Academy Xi/
-  - category2: /Javascript/
+  - category1: /Javascript/
+  - category2: /Projects in Academy Xi/
+
 
 
 # Exclude from processing.
