@@ -2,14 +2,8 @@
 layout: default
 ---
 
-<h2>Categories</h2>
-<ul>
-  {% for category in site.categories %}
-    <li><a href="{{ '/categories/' | append: category | first | slugify }}">{{ category | first }}</a></li>
-  {% endfor %}
-</ul>
 
-<h2>Recent Posts</h2>
+<h2>Posts</h2>
 {% for category in site.categories %}
   <h3>{{ category | first }}</h3>
   <ul>
