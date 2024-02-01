@@ -1,14 +1,22 @@
-<!-- ---
+---
 layout: default
 ---
 
-
-<h2>Posts</h2>
+<h2>Categories</h2>
 {% for category in site.categories %}
-  <h3>{{ category | first }}</h3>
-  <ul>
+  <h3 class="category-toggle">{{ category | first }}</h3>
+  <ul class="category-list" style="display: none;">
     {% for post in category.last %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-{% endfor %} -->
+{% endfor %}
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+$(document).ready(function() {
+  $('.category-toggle').click(function() {
+    $(this).next('.category-list').slideToggle();
+  });
+});
+</script>
