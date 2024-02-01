@@ -1,3 +1,9 @@
+---
+layout: post
+title: "2023-04-01-CORS Error while building phase1 project"
+categories: [Projects in Academy Xi]
+---
+
 Hi, I'm Yehwan. This post will be about CORS Error.
 
 For my phase1 project, building Pokemon dictionary using the Poke API that is public API, I wanted to add other features besides to display data about Pokemon. So, I thought to add comment box and comments to be displayed after submit some comment. To do that, I need to create mock server on my local, post and get the comment data from my local db.json file. And to display comment and data of searched Pokemon, I needed to bring the value of Pokemon name from API to my local server to set the name of Pokemon for searching to be same as the name of Pokemon for commenting.

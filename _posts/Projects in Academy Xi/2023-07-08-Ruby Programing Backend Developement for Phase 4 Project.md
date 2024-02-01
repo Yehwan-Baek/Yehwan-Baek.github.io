@@ -1,3 +1,9 @@
+---
+layout: post
+title: "2023-07-08-Ruby Programing Backend Developement for Phase 4 Project"
+categories: [Projects in Academy Xi]
+---
+
 # Building the Backend Environment for an Anime Review Application
 
 I will highlight the process of building the backend environment for an anime review application. As a developer, I took on the challenge of creating a robust backend system that enables users to review and explore their favorite anime series. This blog post will provide an overview of the key features, technologies used, and lessons learned during the development of this application.

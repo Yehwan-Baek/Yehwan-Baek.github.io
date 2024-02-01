@@ -1,3 +1,11 @@
+---
+layout: post
+title: "2023-06-05-Ruby Programing CLI application for Phase3 project"
+categories: [Projects in Academy Xi]
+---
+
+
+
 # News Search CLI Application
 
 This project is a command-line interface (CLI) application that allows users to search for news articles by category and keywords. It utilizes the News API to fetch the latest news based on user input.

@@ -1,3 +1,9 @@
+---
+layout: post
+title: "2023-04-30-Phase2 Project"
+categories: [Projects in Academy Xi]
+---
+
 This post will be about Phase2 Project using the React.
 
 I planed to build Workout recording app. In this app, I wanted users to be registered by username, and when they sign in, they access thier page as "My Page". They can plan or record their routine.
