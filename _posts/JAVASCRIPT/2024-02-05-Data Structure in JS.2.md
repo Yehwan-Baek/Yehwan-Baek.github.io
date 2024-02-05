@@ -7,7 +7,7 @@ categories: [Javascript]
 
 # Data Structures in JS
 
- This post is about 2 data structures in JS that I learned. 
+ This post is about linked list in JS that I learned. 
 
 ## Linked List
 A linked list is a chained data structure. Each node consists of two pieces of information: the data of the node and the pointer to the next node. Linked list and conventional array are both linear data structures with serialized storage.

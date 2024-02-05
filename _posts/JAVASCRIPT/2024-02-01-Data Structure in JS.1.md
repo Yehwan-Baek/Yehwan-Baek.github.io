@@ -7,7 +7,7 @@ categories: [Javascript]
 
 # Data Structures in JS
 
- This post is about 2 data structures in JS that I learned. 
+ This post is about stack and queue in JS that I learned. 
 
 ## Stack
 Stack follows the principle of LIFO (last in, first out). If you stack books, the top book will be taken before the bottom one. When you browse on the internet, the back button leads you to the most recently browsed page.
