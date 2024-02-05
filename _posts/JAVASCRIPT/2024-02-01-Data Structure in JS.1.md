@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2024-02-01-Data Structures in JS.1"
+title: "2024-02-01-Data Structures in JS -Stack and Queue-"
 categories: [Javascript]
 ---
 
